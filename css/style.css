@@ -2,13 +2,18 @@ html,body{
     margin: 0;
     padding: 0;
     background-color: #111111;
+   
 
 }
 
-.height-nav{
-
+.jum-back{
+    background-image: url(../Images/anthony-mendoza-EDEXrF1YW2Q-unsplash.jpg);
+    color: white;
 }
 
+.descr{
+    padding-left: 0;
+}
 
 .container-fluid{
     position: relative;
@@ -17,21 +22,38 @@ html,body{
  
 }
 
-.centered{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    color: rgb(255, 255, 255);
-}
-
-.nav_col{
-    background-color: #111111;
-  
-}
-
 #footer{
-  
-    background-color: #111111;
     color: rgb(117, 117, 117);
 }
 
+.button{
+    border: white 1px solid;
+color: #ffffff !important;
+padding: 10px;
+text-transform: uppercase;
+border-radius: 3px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+font-weight: 300 !important;
+letter-spacing: 3px;
+background: rgba(255, 255, 255, 0.144);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+text-decoration: none;
+}
+
+.foot-but{
+    border: rgba(255, 255, 255, 0.144) 1px solid;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.foot-but p{
+    margin-bottom: 0px;
+}
