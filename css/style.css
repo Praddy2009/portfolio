@@ -2,8 +2,6 @@ html,body{
     margin: 0;
     padding: 0;
     background-color: #111111;
-   
-
 }
 
 .jum-back{
@@ -56,4 +54,12 @@ text-decoration: none;
 
 .foot-but p{
     margin-bottom: 0px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
 }
