@@ -32,3 +32,132 @@ body {
 }
 
 
+
+#img_prof{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.jum_cus{
+    color: white;
+    background-image: url("https://wallpaperplay.com/walls/full/a/e/7/153694.jpg");
+    background-repeat:no-repeat;
+
+    padding-bottom:0;
+    margin-bottom: 0; 
+}
+.jum_cus_sec{
+    color: rgb(0, 0, 0);
+    margin-bottom: 0; 
+  
+}
+
+
+.cen{
+    text-align: center;
+}
+.float{
+    float: left;
+}
+
+.bullet_siz{
+    width:45px;
+}
+
+
+.col1{
+    background-color:#677a8d;
+}
+.col2{
+    background-color: rgb(228, 218, 218);
+}
+
+.body_blue_cont{
+    color: white;
+    margin-top: 50px;
+}
+
+.body_white_cont{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+
+
+
+.cont_pad{
+    padding: 10px;
+    padding-left: 50px;
+}
+
+#qrlogo{
+    width:200px;
+}
+
+
+/*
+footer
+*/
+
+
+
+footer.footer-section {
+    padding: 60px 0 50px;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: black;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: black;
+    line-height: 30px;
+}
+
+.space{
+    margin-left:10px;
+}
