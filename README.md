@@ -1,4 +1,9 @@
 # portfolio
+
 <b><p>Contains my portfolio</p></b>
 
-<b>Visit at:</b><a href="https://praddy2009.github.io/portfolio/" target="_blank"> Link</a>
+# Technologies
+1) HTML5
+2) CSS & Bootstrap framework
+
+<b>Visit at:</b> https://bit.ly/portfolio_praddy
