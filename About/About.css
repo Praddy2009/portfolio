@@ -31,7 +31,9 @@ body {
     border-radius: 50%;
 }
 
-
+#junbot{
+    margin-bottom: 0;
+}
 
 #img_prof{
     width: 150px;
@@ -43,8 +45,7 @@ body {
     background-image: url("https://wallpaperplay.com/walls/full/a/e/7/153694.jpg");
     background-repeat:no-repeat;
 
-    padding-bottom:0;
-    margin-bottom: 0; 
+    padding-bottom:0; 
 }
 .jum_cus_sec{
     color: rgb(0, 0, 0);
@@ -82,7 +83,9 @@ body {
     margin-top: 50px;
 }
 
-
+#profile{
+    margin-bottom:0 ;
+}
 
 
 .cont_pad{
