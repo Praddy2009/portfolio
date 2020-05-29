@@ -3,11 +3,6 @@ body {
     padding-top: 55px;
 }
 
-.sidebar.collapse.show,
-.sidebar.collapse.show + .col {
-    transition: .18s linear;
-    left: 0;
-}
 
 .sidebar.collapse ,
 .sidebar.collapsing,
@@ -16,6 +11,13 @@ body {
     z-index: 1050;
     left: -25%;
     height: auto !important;
+}
+
+
+.sidebar.collapse.show,
+.sidebar.collapse.show + .col {
+    transition: .18s linear;
+    left: 0;
 }
 
 .Dark-color{
