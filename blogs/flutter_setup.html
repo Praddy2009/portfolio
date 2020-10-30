@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Setup flutter in linux(Ubuntu 20.04) with android studio as an IDE">
+    <link rel="icon" type="image/png" href="Images/flutter_setup/flutter.png">
+    <meta property="og:image" content="https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fflutter.png">
+    <meta property="og:description" content="Its a step-wise process to setup flutter in Ubuntu 20.04">
+    <meta name="keywords" content="flutter, ubuntu 20.04, flutter in linux, praddyum, blogs">
+    <meta name="author" content="Praddyum Verma">
+    <link rel="stylesheet" href="Blog.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a13f357000.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <title>Flutter Setup in Linux</title>
+  </head>
+  <body>
+    <div class="container-fluid fixed-top  clo py-3">
+        <div class="row">
+            <div class="col-xl-2 col-sm-3 col-0 collapse position-sticky sidebar">
+                <!-- spacer col -->
+            </div>
+            <div class="col px-3 ">
+                <!-- toggler -->
+                <a data-toggle="collapse" href="#" data-target=".collapse" role="button">
+                    <i class="fa fa-bars fa-lg text-dark"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        
+        <div class="row vh-100  flex-nowrap">
+            
+            <div class="col-xl-2 col-3 collapse sidebar  text-white px-0">
+                
+                <ul class="nav flex-column flex-nowrap text-truncate navbar-dark position-fixed alert-light vh-100 pt-2 " id="sidebar">
+                    <div class="center">
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link text-dark" href="..\index.html"><img src="../Images/Logo.jpg" alt="Logo" class="img-fluid" id="logo"></a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark lead text-center " href="../About/About.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark lead text-center " href="../blogs/Blogs_home.html">BLOGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark lead text-center " href="../Projects/Project_home.html">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark lead text-center " href="../Contact/Contact.html">CONTACT</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col py-3 ">
+                <div class="container-fluid test ">
+                    <br>
+                    <p class="text-center lead">30 OCT 2020</p>
+                    <h2 class="text-center">Setup flutter in Ubuntu 20.04 & Android Studio</h2>
+                    <p class="text-center lead">Author: Praddyum Verma</p>
+                    <hr>
+                    <img src="Images/flutter_setup/flutter_blog.png" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                    <br>
+                    <div class="container Dark-color">
+                        <p class="lead">Before we begin best of luck to you for your upcoming journey of flutter. May you enjoy it and create awesome apps which will be 
+                            of great use for the society. So let's begin.
+                        </p>
+                        <p class=" lead">
+                            For the complete flutter setup you need three things :
+                            <br><br>
+                            1) Flutter SDK
+                            <br>
+                            2) An Integrated Development Environment(IDE)
+                            <br>
+                            3) Good Internet connection throughout the process.
+                        </p>
+                        <p class="lead">In this tutorial our aim is to setup flutter environment in Ubuntu 20.04 with Android Studio as an IDE.
+                        </p>
+                        <hr>
+                        <h3>Installing Flutter SDK</h3>
+                        <br>
+                        <p class=" lead">Open terminal and run command</p>
+                        <center><code class=" lead">sudo snap install flutter --classic</code></center>
+                        <br>
+                        <hr>
+                        <h3>Installing Android Studio</h3>
+                        <br>
+                        <p class=" lead">Step 1: Visit the link to download the Android studio. <a href="https://developer.android.com/studio" target="_blank">Click Here!</a></p>
+                        <br>
+                        <p class=" lead ">Step 2:  Unzip the downloaded package and open the terminal inside the bin folder. Run the following command</p>
+                        <center><code class=" lead">./studio.sh</code></center>
+                        <br>
+                        <img src="Images\flutter_setup\studio.png" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                        <br>
+                        <p class="lead">It will launch the android Studio Screen. Note: For now you'll not be able to see the Start a new flutter project option.</p>
+                        <h6 class=" lead">Step 3: On Android Studio screen navigate to <b>Configuration->Plugin</b> and install Flutter and Dart plugins </h6>
+                        <br>
+                        <img src="Images\flutter_setup\plug.gif" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                        <br>
+                        <p class="lead">Now you'll be able to see Start a new flutter project option.</p>
+                        <h6 class=" lead">Step 4: Click on Start a new flutter project. Click on <b>Flutter Application</b>. Then give a name to your project and set the path of flutter SDK we installed previously. 
+                            In our case it will be in path <b>/home/user_name/snap/flutter/common/flutter</b>. Give a unique domain name and click finish.</h6>
+                            <br>
+                        <img src="Images\flutter_setup\path.gif" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                        <br>
+                        <h6 class=" lead">Step 5: When Android studio opens goto <b>Tools -> AVD Manager -> Create Virtual device</b>. </h6>
+                        <br>
+                        <img src="Images\flutter_setup\dev.gif" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                        <br>
+                        <h6 class=" lead">Step 6: Choose the device. Click next go to <b>X86</b> Click next. In <b>Graphics</b> choose Hardware-GLES *.* and then finish. Then start the device from the list.</h6>
+                        <br>
+                        <img src="Images\flutter_setup\emu.gif" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                        <br>
+                        <h6 class=" lead">Step 7: Now with the emulator running click on Run. If the App runs in the emulator Congrats your are all setup. For the first time gradle building takes time and depends on your internet speed.</h6>
+                        <br>
+                        <img src="Images\flutter_setup\run.gif" class="img-fluid mx-auto d-block" style="width: 50rem;" alt="Responsive image">
+                        <br>
+                        <h5>Congratulations! Now you are ready to start learning flutter development.</h6>
+                        <br>
+                        <p class="lead">Feel free to reach me for doubts <a href="../Contact/Contact.html" target="_blank">Contact</a></p>
+                        <hr>
+                        <p class="lead">Where to go from here?
+                        <br>
+                            Getting Started with Flutter Development<a href="https://www.youtube.com/playlist?list=PLSzsOkUDsvdtl3Pw48-R8lcK2oYkk40cm">Click Here!</a>
+                        </p>
+                        <hr>
+                        <p class="text-center lead"><b>Thanks for Visiting. Have a nice day.</b> </p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+</html>
